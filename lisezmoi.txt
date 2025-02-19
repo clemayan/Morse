@@ -1,0 +1,31 @@
+Maya Mazuet T3
+Lorène Madelaine Caprice
+
+Installer les bibliothèque nécessaires :
+>> pip install networkx
+
+Lors de l'exécution du programme un arbre binaire représentant le langage Morse s'affiche pour voir les caractères possibles d'utilisation.
+Le programme met plusieurs secondes à exécuter l'encodage des gros fichiers.
+La moyenne de l'encodage d'un fichier est effectuée sur 3 fichiers texte de différentes tailles.
+La moyenne du décodage d'un fichier n'a pas pu être terminé un problème suivant avec la structure dictionnaire.
+
+L'encodage d'un message peut mélanger majuscules et minuscules.
+L'utilisateur à le choix entre utiliser une structure d'arbre ou une structure de dictionnaire.
+Tous les caractères ayant une alternative en morse peuvent être encodés.
+
+Certains caractères ne sont pas disponibles :
+ô, ê, œ, â, î, û, ù, ó, ò, ì, ï, ë, ü, °, %
+
+De plus, les guillemets sont ceux du clavier traditionnel '""' et non "«»".
+Le fichier à encoder ne doit pas contenir de retour à la ligne.
+
+Tout message rentré par l'utilisateur doit terminer par un *
+Par exemple :
+°°°*---*°°°*
+Et non :
+°°°*---*°°°
+
+De même qu'un message retourné en morse se terminera toujours par * (sauf pour une seule lettre)
+L'utilisateur à la possibilité de faire un retour ou de stopper le programme en rentrant "retour" ou "stop".
+
+Un message s'affiche lorsqu'un autre caractère (autres que 1, 2, retour, stop) est entré par l'utilisateur.
